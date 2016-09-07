@@ -11,6 +11,8 @@ int main(){
     
     int num1 = 0;
     float num2 = 0;
+    char Hello_intro[] = "Hello";
+    char Bye_outro[] = "Goodbye";
     string M_upname;
     string prtverb;
     string clr1;
@@ -29,6 +31,7 @@ int main(){
     
     cout << "An Odd Animal." << endl;
     
+    cout << Hello_intro << endl;
     cout << "Give me a large whole number." << endl;
     cin >> num1;
     cout << "Another number, but not whole." << endl;
@@ -80,6 +83,7 @@ int main(){
     cout << " Although its favorite food is " << Favfood << "," << " it also likes to eat ";
     cout << Noun_three << "."; cout << " If you ever see a " << M_upname << ", be sure not to sing " << Favsong << "."; 
     cout << " That song makes it " << adj1 << "." << endl; cout << " Instead give it a few " << Favfood << " and be on your way." << endl;
+    cout << Bye_outro << endl;
     
     
 }
