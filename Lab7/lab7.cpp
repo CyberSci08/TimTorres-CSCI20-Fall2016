@@ -1,3 +1,10 @@
+//Tim Torres
+//CSCI20 MW 9:00-11:15
+//Lab 7: A song using functions with parameters and arguments.
+//9-19-16
+
+
+
 #include <iostream>
 #include <string>
 using namespace std;
