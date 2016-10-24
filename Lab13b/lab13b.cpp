@@ -31,10 +31,11 @@ int main(){
       //Set condition for new input and print out time in 15 min intervals until end hour
       for (sHour; sHour < eHour; sHour += 15){
          cout << sHour << endl;
-           
+           if(sHour > 0159){
+              
+           }
       }
-      cout << sHour << endl;
-      cout << eHour << endl;
+
 }
 
    
