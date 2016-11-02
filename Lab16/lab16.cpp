@@ -41,13 +41,21 @@ int main(){
     cout << endl;
     
    } 
+    printTotal(userItems);
     
     
    return 0;
 }
 //Print total of players inventory
 double printTotal(int userItems[NUM_ITEMS]){
-    
+    float menuSum = 0.0;
+    for (int i = 0; i < NUM_ITEMS; i++){
+    if (userItems[i] > 0){
+        menuSum += menuPrice[i];
+        
+    }
+    }
+    cout << "Your total is: $ " << menuSum << endl;
 }
 
 
@@ -61,8 +69,6 @@ void printItems(int userItems[NUM_ITEMS]){
         if (userItems[i] > 0){
             cout << userItems[i] << " x " << menuItem[i] << endl;
             menuSum += menuPrice[i];
-            
-            
         }
         
     }
