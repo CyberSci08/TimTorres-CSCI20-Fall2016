@@ -21,16 +21,16 @@ int main(){
     cout << "Please enter a 10 letter word or less" << endl;
     cin >> firststr;
     
-    //Using c-string function strlen to get the character length of firststr
+    //Using c-string function strlen to get the string length of firststr
     strlen(firststr);
     
-    //Assinging the character length of firststr to firstname
+    //Assinging the string length of firststr to firstname
     firstname = strlen(firststr);
     
     //Displaying user's word
     cout << "Your word is " << firststr << endl;
     
-    //Check conditions for character length
+    //Check conditions for string length
     if (firstname < 10){
         
         
@@ -50,7 +50,7 @@ int main(){
     }
       cout << endl;
       
-      tail = &firststr[strlen(firststr) - 1];   //getting the character length of firststr then subtracting 1, returns pointer to variable and assigns it to tail
+      tail = &firststr[strlen(firststr) - 1];   //getting the string length of firststr then subtracting 1, returns pointer to variable and assigns it to tail
       
       //Another condition check
         if (firstname < 10){
